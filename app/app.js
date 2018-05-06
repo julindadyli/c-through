@@ -22,8 +22,8 @@
 
 /*
  * Title: App Configuration Script
- * Author: Lisa Staehli
- * Date: 04/24/17
+ * Author: Lisa Staehli - edit Julinda Dyli
+ * Date: 06/05/2018
  * Description: Used to configure and link a webscene
  * with corresponding attributes for visualization
  * and statistics. A webscene with a scene service 
