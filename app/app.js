@@ -70,13 +70,13 @@ define([
         // application settings
         var settings_demo = {
             name: "Demo",
-            url: "http://zurich.maps.arcgis.com",           // portal URL for config
-            webscene: "0af10b5e35ed4a5bbe095aa76b14b786",   // portal item ID of the webscene
-            usagename: "usage",                             // usage attribute (string)
-            floorname: "floorID",                           // floor attribute (int)
-            OIDname: "OBJECTID",                            // objectid
-            buildingIDname: "buildingID",                   // building attribute (int)
-            areaname: "unitarea",                           // area attribute (float)
+            url: "https://prismageocensus.maps.arcgis.com",           // portal URL for config
+            webscene: "3065849b63b543cda106f4c5dc7cc7a6",   // portal item ID of the webscene
+            usagename: "usage_type",                             // usage attribute (string)
+            floorname: "floor_leve",                           // floor attribute (int)
+            OIDname: "Object_D",                            // objectid
+            buildingIDname: "buildind_i",                   // building attribute (int)
+            areaname: "area",                           // area attribute (float)
             color: [                                        // color ramp for unique value renderer
                     [178, 171, 210, 1],                     
                     [253, 174, 97, 1],
@@ -121,7 +121,7 @@ define([
                 esriConfig.portalUrl = this.settings.url;
 
                 // fix CORS issues by adding portal url to cors enabled servers list
-                esriConfig.request.corsEnabledServers.push("http://zurich.maps.arcgis.com");
+                esriConfig.request.corsEnabledServers.push("https://prismageocensus.maps.arcgis.com");
 
                 // load scene with portal ID
                 this.scene = new WebScene({
