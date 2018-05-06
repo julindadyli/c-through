@@ -22,7 +22,7 @@
 
 /*
  * Title: App Configuration Script
- * Author: Lisa Staehli - edit Julinda Dyli
+ * Author: Lisa Staehli
  * Date: 06/05/2018
  * Description: Used to configure and link a webscene
  * with corresponding attributes for visualization
